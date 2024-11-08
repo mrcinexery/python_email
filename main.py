@@ -10,7 +10,7 @@ smtp_object.ehlo()
 smtp_object.starttls()
 email = getpass.getpass('Please enter your email: ')
 
-#mbim xffc zgqr oyjn
+#
 password = getpass.getpass('Please enter your password: ')
 
 print(smtp_object.login(email, password))
